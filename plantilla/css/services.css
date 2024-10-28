@@ -1,0 +1,11 @@
+
+.services {
+  border: 2px solid rgba(40, 167, 69, 0.2); /* Color del borde verde claro con más opacidad */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: transform 0.2s; /* Efecto de hover */
+}
+
+.services:hover {
+  transform: translateY(-5px); /* Levantar el cuadro al pasar el mouse */
+}

@@ -1,0 +1,61 @@
+
+    /* Contenedor para Misión y Visión con margen superior */
+    .section {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0 30px; /* Espacio debajo de "Nosotros" */
+    }
+
+    /* Estilos para las tarjetas de Misión y Visión */
+    .section .card {
+        border: 1px solid #28a745; /* Borde más sutil (1px) */
+        padding: 20px;
+        border-radius: 8px;
+        flex: 1;
+        margin: 0 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+        transition: background-color 0.3s, color 0.3s; /* Transición para hover */
+        color: #333; /* Contenido en color negro/plomo */
+    }
+
+    /* Cambios al pasar el mouse (hover) */
+    .section .card:hover {
+        background-color: #28a745; /* Fondo verde */
+        color: white; /* Texto en blanco */
+    }
+
+    /* Estilo del título de Misión y Visión por defecto */
+    .section .card h2 {
+        margin-top: 0;
+        font-size: 24px;
+        color: #28a745; /* Título en color predeterminado (verde) */
+        font-weight: normal; /* Sin grosor */
+    }
+
+    /* Título en blanco al hacer hover */
+    .section .card:hover h2 {
+        color: white;
+    }
+
+    /* Párrafos dentro de las tarjetas, contenido en color plomo/negro */
+    .section .card p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333; /* Contenido en plomo/negro */
+        transition: color 0.3s; /* Transición de color para el hover */
+    }
+
+    /* Contenido en blanco al hacer hover */
+    .section .card:hover p {
+        color: white;
+    }
+
+    /* Estilos para la sección de Valores */
+    h1 {
+        text-align: center; /* Centrar el título de "Valores" */
+        font-weight: bold;  /* Negrita */
+        margin-bottom: 30px;
+    }
+
+

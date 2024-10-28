@@ -1,0 +1,67 @@
+.carousel-indicators {
+    position: relative;
+    margin-top: 20px; /* Espacio entre el carrusel y los indicadores */
+    text-align: center; /* Centrar los indicadores */
+}
+ 
+.carousel-indicators button {
+    width: 12px; /* Ancho del círculo */
+    height: 12px; /* Alto del círculo */
+    margin: 0 5px; /* Espaciado entre los círculos */
+    border-radius: 50%; /* Hacerlos circulares */
+    background-color: #ccc; /* Color de fondo cuando no están seleccionados */
+    border: none; /* Sin borde */
+    transition: background-color 0.3s; /* Transición para el cambio de color */
+}
+ 
+.carousel-indicators button.active {
+    background-color: green; /* Color verde cuando están seleccionados */
+}
+ 
+ 
+ 
+ 
+.hero-wrap {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+ 
+#hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%; /* Expand to allow alignment */
+}
+ 
+.text-left {
+    text-align: left;
+    margin-left: 0; /* Align fully to the left */
+    padding-left: 20px; /* Optional padding for spacing from edge */
+}
+ 
+.text-right {
+    text-align: right;
+    margin-right: 0; /* Align fully to the right */
+    padding-right: 20px; /* Optional padding for spacing from edge */
+}
+ 
+#hero-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+ 
